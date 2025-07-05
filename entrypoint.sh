@@ -18,5 +18,5 @@ else
     fi
 
     # RUN webu.sh AS USER user
-    su user -c "bash /home/user/workspace/webui.sh --listen --enable-insecure-extension-access"
+    su user -c "bash /home/user/workspace/webui.sh --listen --enable-insecure-extension-access --api --xformers"
 fi
